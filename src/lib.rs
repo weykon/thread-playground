@@ -1,6 +1,7 @@
 use std::sync::{Arc, Mutex};
 use std::thread;
 
+pub mod channel;
 // 死锁示例
 pub fn dead_lock() {
     let lock1 = Arc::new(Mutex::new(0));
@@ -28,4 +29,3 @@ pub fn dead_lock() {
     //     let mut num = lock1_ref.lock().unwrap();
     // });
 }
-
