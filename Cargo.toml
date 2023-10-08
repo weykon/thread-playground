@@ -1,5 +1,5 @@
 [package]
-name = "thread-playground"
+name = "thread_playground"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,3 +11,7 @@ chrono = "0.4.31"
 [[bin]]
 name = "channel"
 path = "src/channel/mod.rs"
+
+[[bin]]
+name = "task"
+path = "src/tasks/mod.rs"

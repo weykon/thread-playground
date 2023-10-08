@@ -153,7 +153,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "thread-playground"
+name = "thread_playground"
 version = "0.1.0"
 dependencies = [
  "chrono",
