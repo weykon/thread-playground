@@ -1,6 +1,6 @@
 pub use thread_playground::*;
 
 fn main() {
-  dead_lock();
-  tasks::exec();
+    dead_lock();
+    tasks::exec();
 }

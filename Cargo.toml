@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.31"
+parking_lot = "0.12.3"
+tokio = "1.44.1"
 
 [[bin]]
 name = "channel"
@@ -15,3 +17,15 @@ path = "src/channel/mod.rs"
 [[bin]]
 name = "task"
 path = "src/tasks/mod.rs"
+
+[[bin]]
+name = "new_mpsc_know"
+path = "src/mpsc/mod.rs"
+
+[[bin]]
+name = "speaker"
+path = "src/speaker/mod.rs"
+
+[[bin]]
+name = "lower_level"
+path = "src/lower_level/mod.rs"
